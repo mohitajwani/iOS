@@ -4,6 +4,8 @@ import UIKit
 
 var str = "Hello, playground"
 
+// **** https://www.raywenderlich.com/143771/swift-tutorial-part-1-expressions-variables-constants ****** //
+
 //This is a comment
 
 /*
@@ -18,11 +20,15 @@ var str = "Hello, playground"
 //Print String
 print("Hello, Swift Apprentice reader!")
 
-
+//Add
 2 + 6
 
+//Subtract
 10 - 2
 
+//Multiplication
 2 * 4
 
+//Division
 24 / 3
+
