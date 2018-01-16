@@ -32,3 +32,16 @@ print("Hello, Swift Apprentice reader!")
 //Division
 24 / 3
 
+//Int and Float
+22/7
+22.0/7.0
+
+//Mod
+28%10
+
+//Left shift
+1<<3
+
+//Right Shift
+69>>3
+
