@@ -14,3 +14,15 @@ var str = "Hello, playground"
  line
  comment
  */
+
+//Print String
+print("Hello, Swift Apprentice reader!")
+
+
+2 + 6
+
+10 - 2
+
+2 * 4
+
+24 / 3
