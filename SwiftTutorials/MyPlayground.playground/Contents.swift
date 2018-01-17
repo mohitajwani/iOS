@@ -45,3 +45,32 @@ print("Hello, Swift Apprentice reader!")
 //Right Shift
 69>>3
 
+//Math Operations
+sin(45 * Double.pi / 180)
+
+cos(135 * Double.pi / 180)
+
+sqrt(2.0)
+sqrt(2)
+
+max(5, 10)
+
+max(-5, -10)
+
+//Declaring constants
+let number: Int = 10
+print(number)
+//Cannot reassign value to constant
+//number = 11
+
+//Variables
+var variableNumber: Int = 42
+print(variableNumber)
+variableNumber = 20
+print(variableNumber)
+
+//Increment - Decrement
+var counter: Int = 0
+counter += 1
+counter *= 3
+
