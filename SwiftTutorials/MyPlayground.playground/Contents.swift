@@ -101,6 +101,7 @@ answer >> 3
 
 /*
  Declare a constant exercises with value 11 and a variable exercisesSolved with value 0. Increment this variable every time you solve an exercise (including this one).
+ 
  Given the following code:
  age = 16
  print(age)
@@ -119,14 +120,55 @@ answer >> 3
  let answer2: Int = (a * 100) + (b * 100)
  // 3
  let answer3: Int = (a * 100) + (b / 10)
+ 
  Add parentheses to the following calculation. The parentheses should show the order in which the operations are performed and should not alter the result of the calculation.
  5 * 3 - 4 / 2 * 2
+ 
  Declare two constants a and b of type Double and assign both a value. Calculate the average of a and b and store the result in a constant named average.
+ 
  A temperature expressed in °C can be converted to °F by multiplying by 1.8 then incrementing by 32. In this challenge, do the reverse: convert a temperature from °F to °C. Declare a constant named fahrenheit of type Double and assign it a value. Calculate the corresponding temperature in °C and store the result in a constant named celcius.
+ 
  Suppose the squares on a chessboard are numbered left to right, top to bottom, with 0 being the top-left square and 63 being the bottom-right square. Rows are numbered top to bottom, 0 to 7. Columns are numbered left to right, 0 to 7. Declare a constant position and assign it a value between 0 and 63. Calculate the corresponding row and column numbers and store the results in constants named row and column.
+ 
  Declare constants named dividend and divisor of type Double and assign both a value. Calculate the quotient and remainder of an integer division of dividend by divisor and store the results in constants named quotient and remainder. Calculate the remainder without using the operator %.
+ 
  A circle is made up of 2 radians, corresponding with 360 degrees. Declare a constant degrees of type Double and assign it an initial value. Calculate the corresponding angle in radians and store the result in a constant named radians.
+ 
  Declare four constants named x1, y1, x2 and y2 of type Double. These constants represent the 2-dimensional coordinates of two points. Calculate the distance between these two points and store the result in a constant named distance.
+ 
  Increment variable exercisesSolved a final time. Use the print function to print the percentage of exercises you managed to solve. The printed result should be a number between 0 and 1.
  */
+let exercises: Int = 11
+var exercisesSolved: Int = 0
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+var age: Int = 16
+print(age)
+age = 30
+print(age)
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+print("Answer 1 = 4610, Answer 2 = 5600, Answer 3 = 4601")
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+print("Result is (5 * 3) - ((4 / 2) * 2))", 5 * 3 - 4 / 2 * 2)
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+let a: Double = 2.5
+let b: Double = 3.7
+let average: Double = (a+b)/2
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+let fahrenheit: Double = 100.0
+let celcius: Double = (fahrenheit-32)/1.8
 
