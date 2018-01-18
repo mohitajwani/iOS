@@ -172,3 +172,8 @@ print("Exercises Solved =", exercisesSolved)
 let fahrenheit: Double = 100.0
 let celcius: Double = (fahrenheit-32)/1.8
 
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+
