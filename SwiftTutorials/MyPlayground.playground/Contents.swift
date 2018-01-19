@@ -172,8 +172,35 @@ print("Exercises Solved =", exercisesSolved)
 let fahrenheit: Double = 100.0
 let celcius: Double = (fahrenheit-32)/1.8
 
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+let selectedSquare: Int = 35
+let selectedRow: Int = selectedSquare/8
+let selectedColumn: Int = selectedSquare%8
 
 exercisesSolved += 1;
 print("Exercises Solved =", exercisesSolved)
 
+let dividend: Double = 23.0
+let divisor: Double = 17.0
+let quotient: Int = Int(dividend/divisor)
+let remainder: Int = Int(dividend) - (Int(divisor) * quotient)
 
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+let degrees: Double = 49.3
+let radians: Double = degrees/(360/2)
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
+
+let x1: Double = 1.4
+let y1: Double = 3.2
+let x2: Double = 4.7
+let y2: Double = 1.9
+let distance: Double = sqrt(pow(x2-x1,2) - pow(y2-y1,2))
+
+exercisesSolved += 1;
+print("Exercises Solved =", exercisesSolved)
