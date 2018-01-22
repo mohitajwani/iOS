@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var mealNameLabel: UIButton!
+    @IBOutlet weak var mealNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,7 @@ class ViewController: UIViewController {
 
     //MARK: Actions
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
+        mealNameLabel.text = "Default Text"
     }
 }
 
