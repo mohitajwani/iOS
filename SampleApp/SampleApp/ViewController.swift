@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: Properties
-
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var mealNameLabel: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +24,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    //MARK: Actions
+    @IBAction func setDefaultLabelText(_ sender: UIButton) {
+    }
 }
 
