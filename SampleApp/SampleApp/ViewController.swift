@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController, UITextFieldDelegate,
+    UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
@@ -45,6 +46,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         mealNameLabel.text = "Default Text"
     }
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+        // Hide the keyboard.
+        nameTextField.resignFirstResponder()
     }
 }
 
