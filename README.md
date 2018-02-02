@@ -1,7 +1,7 @@
 # iOS
 ## Code for all Swift learning
 <br>
-Reference is taken from www.raywenderlich.com
+Reference is taken from www.raywenderlich.com. 
 
 ## Code for iOS App development
 <br>
