@@ -40,6 +40,12 @@ class ViewController: UIViewController, UITextFieldDelegate,
         //Set Text after editing is complete
         mealNameLabel.text = textField.text
     }
+    
+    //MARK: UIImagePickerControllerDelegate
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        // Dismiss the picker if the user canceled.
+        dismiss(animated: true, completion: nil)
+    }
 
     //MARK: Actions
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
