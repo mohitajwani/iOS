@@ -56,7 +56,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Uos-KG-GE8" secondAttribute="trailing" id="whp-z8-Hy0"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-OI-fh0" customClass="RatingControl" customModule="SampleApp" customModuleProvider="target">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-OI-fh0" customClass="RatingControl" customModule="SampleApp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="482" width="200" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
