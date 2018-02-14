@@ -9,4 +9,4 @@ Basic operations, Comments, Print output, Arithmetic operations, Bitwise operati
 All reference for iOS Sample Project is taken from <a href="https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html">Apple Developer Site.</a>
 
 ##### Code Coverage for iOS
-Basic App for Food Ordering including Label, etc.
+Basic App for Food Ordering including Label, Text, Image, Rating Bar, etc.
