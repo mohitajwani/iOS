@@ -49,8 +49,7 @@ class RatingControl: UIStackView {
             button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
             
             // Setup the button action
-            button.addTarget(self, action:
-                #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
+            button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
             
             // Add the button to the stack
             addArrangedSubview(button)
