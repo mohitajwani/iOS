@@ -56,14 +56,20 @@
                                     <constraint firstAttribute="trailing" secondItem="Uos-KG-GE8" secondAttribute="trailing" id="whp-z8-Hy0"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-OI-fh0" customClass="RatingControl" customModule="SampleApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="482" width="200" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b5Q-OI-fh0" customClass="RatingControl" customModule="SampleApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="481.5" width="343" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="LVZ-ck-sOL"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="b5Q-OI-fh0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GzU-hb-e6N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b5Q-OI-fh0" secondAttribute="trailing" constant="16" id="YYP-pr-Vn9"/>
+                            <constraint firstItem="b5Q-OI-fh0" firstAttribute="top" secondItem="71D-RS-VUd" secondAttribute="bottom" constant="7" id="aHa-bo-vsV"/>
                             <constraint firstItem="71D-RS-VUd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eNH-eE-J9C"/>
+                            <constraint firstItem="b5Q-OI-fh0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uFQ-hQ-X15"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="71D-RS-VUd" secondAttribute="trailing" constant="16" id="uI1-Rl-mmx"/>
                             <constraint firstItem="71D-RS-VUd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="wlc-J9-qtl"/>
                         </constraints>
